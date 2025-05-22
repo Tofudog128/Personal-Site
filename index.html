@@ -1,62 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tatum Hennessy</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <header>
-    <h1>Tatum Hennessy</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+<body class="font-sans bg-white text-gray-800">
+  <header class="bg-blue-100 shadow sticky top-0 z-50">
+    <div class="max-w-4xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-3xl font-bold text-blue-800">Tatum Hennessy</h1>
+      <nav>
+        <ul class="flex gap-6">
+          <li><a href="#about" class="text-blue-700 hover:underline">About</a></li>
+          <li><a href="#projects" class="text-blue-700 hover:underline">Projects</a></li>
+          <li><a href="#contact" class="text-blue-700 hover:underline">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section id="hero">
-      <h2>Welcome!</h2>
-      <p>I'm Tatum — a data-driven strategist blending advertising with analytics.</p>
+  <main class="max-w-4xl mx-auto px-4 py-8">
+    <section id="about" class="mb-12">
+      <h2 class="text-2xl font-semibold mb-2">About Me</h2>
+      <p class="text-lg">Hey there! I'm Tatum, a rising BU Senior with a passion for data science and advertising strategy.</p>
     </section>
 
-    <section id="projects">
-      <h2>Projects</h2>
-      <ul>
-        <li><a href="https://github.com/yourusername/project1">Marketing Dashboard with Python</a></li>
-        <li><a href="https://yourportfolio.com/wine-analysis">Wine Review Analysis using Random Forest</a></li>
+    <section id="projects" class="mb-12">
+      <h2 class="text-2xl font-semibold mb-2">Projects</h2>
+      <ul class="list-disc list-inside space-y-1">
+        <li><a href="https://github.com/yourusername/project1" class="text-blue-600 hover:underline">Marketing Dashboard with Python</a></li>
+        <li><a href="https://yourportfolio.com/wine-analysis" class="text-blue-600 hover:underline">Wine Review Analysis using Random Forest</a></li>
       </ul>
     </section>
 
-    <section id="resume">
-      <h2>Resume</h2>
-      <p>Download my resume <a href="resume.pdf" target="_blank">here</a>.</p>
+    <section id="resume" class="mb-12">
+      <h2 class="text-2xl font-semibold mb-2">Resume</h2>
+      <p class="text-lg">Download my resume <a href="resume.pdf" target="_blank" class="text-blue-600 underline">here</a>.</p>
     </section>
 
-    <section id="blog">
-      <h2>Blog</h2>
-      <ul>
-        <li><a href="blog/post1.html">How I Use Data in Advertising</a></li>
-        <li><a href="blog/post2.html">Building My First Personal Website</a></li>
+    <section id="blog" class="mb-12">
+      <h2 class="text-2xl font-semibold mb-4">Blog</h2>
+      <ul class="space-y-2">
+        <li><a href="blog/post1.html" class="text-blue-600 hover:underline">How I Use Data in Advertising</a></li>
+        <li><a href="blog/post2.html" class="text-blue-600 hover:underline">Building My First Personal Website</a></li>
       </ul>
     </section>
-    
+
     <section id="contact">
-      <h2>Contact</h2>
-      <p><i class="fas fa-envelope"></i> <a href="mailto:tatumh@bu.edu">tatumh@bu.edu</a></p>
-      <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/tatum-hennessy-772473264">LinkedIn</a></p>
+      <h2 class="text-2xl font-semibold mb-2">Contact</h2>
+      <p class="text-lg">Email: <a href="mailto:tatumh@bu.edu" class="text-blue-600 underline">tatumh@bu.edu</a></p>
+      <p class="text-lg">LinkedIn: <a href="https://www.linkedin.com/in/tatum-hennessy-772473264" class="text-blue-600 underline">Tatum Hennessy</a></p>
     </section>
   </main>
 
-  <footer>
+  <footer class="text-center text-sm text-gray-500 py-6 border-t">
     <p>&copy; 2025 Tatum Hennessy. All rights reserved.</p>
   </footer>
 </body>
 </html>
-
